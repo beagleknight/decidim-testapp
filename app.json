@@ -1,0 +1,17 @@
+{
+  "name": "decidim-testapp",
+  "description": "TODO: Add a short description about decidim-testapp",
+  "keywords": [],
+  "addons": [
+    "heroku-postgresql:hobby-dev",
+    "heroku-redis:hobby-dev",
+    "newrelic:wayne",
+    "papertrail:choklad",
+    "sendgrid:starter",
+    "memcachier:developer",
+    "rollbar:free"
+  ],
+  "env": {
+    "SECRET_KEY_BASE": "changemeplease"
+  }
+}
